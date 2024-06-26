@@ -12,7 +12,6 @@ public class CreatePackagePage {
 
     By namaPaket = By.id("nama_paket");
     By saveButton = By.id("create-paket");
-
     By errorMessage = By.xpath("//div[contains(@class, 'alert alert-danger mt-2')]");
 
     public CreatePackagePage(WebDriver driver) {
