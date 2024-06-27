@@ -32,9 +32,9 @@ public class RegisterSteps {
 
     @When("User submit valid credentials for register")
     public void user_submit_valid_credentials() throws InterruptedException {
-        registerPage.enterFullName("Sakuraa2");
-        registerPage.enterUsername("sakuchann2");
-        registerPage.enterEmail("sakuchann2@gmail.com");
+        registerPage.enterFullName("Sakuraa3");
+        registerPage.enterUsername("sakuchann3");
+        registerPage.enterEmail("sakuchan32@gmail.com");
         registerPage.enterPassword("rahasia");
         registerPage.enterConfirmPassword("rahasia");
         registerPage.clickRegister();
