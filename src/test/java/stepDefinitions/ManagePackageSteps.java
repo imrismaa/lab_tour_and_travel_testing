@@ -74,7 +74,7 @@ public class ManagePackageSteps {
 
     @When("the user click delete package button")
     public void the_user_click_delete_button() {
-        driver.get("http://127.0.0.1:8001/DeletePaket/82");
+        driver.get("http://127.0.0.1:8001/DeletePaket/83");
         Hooks.test.log(Status.PASS, "user click delete button");
     }
 
